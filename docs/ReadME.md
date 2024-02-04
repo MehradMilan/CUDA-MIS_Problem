@@ -1,3 +1,13 @@
+## MIS porblem
+
+An  independent  set in  a graph  is a set of  vertices,  no  two  of  which  are adjacent.  A 
+maximal independent  set is an independent set that  is  not  properly contained in 
+any  independent set.
+
+example:
+
+![](./images/example-MIS.svg)
+
 ## Karp And Wigderson algorithm
 
 We use this alghorithm for solving maximal independent set in faster way. The algorithm execute in $O((log{}{n})^4)$ time and use $O((n/log{}{n})^3)$ processor.
