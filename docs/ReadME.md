@@ -31,4 +31,34 @@ in `INDFIND` function we assign a processor to every edge and choose one of the 
 
 NOTE: you can see more proofs and details in `KW85` paper.
 
+## Algorithms
+
+we implement 2 algorithm. One of them had a bad performance due to having the atomic operator, but the other one, which is the algorithm introduced above, had a better performance.
+
+Bad algorithm:
+
+![](./images/Algo1.png)
+
 ## Benchmark
+
+We fix the tester for all of algorithms and we benchmarked them and you can see the results of each in the pictures below.
+
+NOTE: Due to the limited GPU resources we had, large tests were not executed and we only took benchmarks for small tests.
+
+NOTE: Due to the fact that the tester of the project gets an error when testing the Coda code, we manually benchmarked our algorithm.
+
+serial:
+
+![](./images/Serial.png)
+
+incremental:
+
+![](./images/INC.png)
+
+parallel:
+![](./images/nd.png)
+
+Cuda:
+
+![](./images/Cuda.png)
+
